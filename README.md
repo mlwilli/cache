@@ -11,7 +11,7 @@ Basic stats: hits, misses, loads, failures, evictions
 Zero dependencies — just Java 25
 
 It’s intentionally small so you can skim 
-
+```
 Usage Example
 CacheConfig<String, String> config = CacheConfig.<String, String>builder()
     .maxSize(100)
