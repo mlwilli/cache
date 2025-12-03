@@ -3,18 +3,11 @@ Tiny Cache
 A small, thread-safe in-memory cache with TTL, LRU eviction, and optional read-through loading.
 Lightweight, dependency-free, and built for cases where you don’t want to drag in something huge just to cache a few values.
 
-Features
-
 Thread-safe in-memory storage
-
 TTL support (entries expire automatically)
-
 LRU eviction when size is exceeded
-
 Optional CacheLoader for read-through caching
-
 Basic stats: hits, misses, loads, failures, evictions
-
 Zero dependencies — just Java 25
 
 It’s intentionally small so you can skim 
