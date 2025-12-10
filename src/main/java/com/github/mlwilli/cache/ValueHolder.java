@@ -5,6 +5,7 @@ import java.util.Objects;
 
 /**
  * Internal wrapper for cached values.
+ * Temp wrapper
  */
 final class ValueHolder<V> {
 
